@@ -15,11 +15,9 @@ Each model's performance was assessed using the balance accuracy score, the conf
 
 ## Results
 - **Machine Learning Model 1:**
-
 Model 1, trained on the original data, yields an accuracy of 94.4% in predicting the two labels. The model excels at predicting healthy loans, boasting precision and recall scores of 1.00 for this category. However, its performance in predicting high-risk loans could be enhanced. The precision score for high-risk loans stands at 0.87, signifying that only 87% of actual high-risk loans were correctly predicted. The recall score for high-risk loans is 0.89, indicating that the model identified only 89% of all high-risk loans in the dataset.
 
 - **Machine Learning Model 2:**
-
 Model 2, trained on the resampled data, achieves an accuracy of 99.6% in predicting the two labels. The model demonstrates proficiency in predicting healthy loans, maintaining precision and recall scores of 1.00 for this category. The precision score for high-risk loans remains at 0.87, but the recall score has improved to 1.00, indicating that the model can now identify all high-risk loans in the dataset.
 
 ## Summary  
